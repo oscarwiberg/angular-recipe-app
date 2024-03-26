@@ -6,7 +6,7 @@ import { ShoppingListService } from "../shopping-list/shopping-list.service";
 
 @Injectable()
 export class RecipeService {
-  recipeSelected = new EventEmitter<Recipe>;
+
 
   private recipes: Recipe[] = [
     new Recipe('Pancakes', 'Super tasty pancakes', 'https://www.marthastewart.com/thmb/hYBu4WxREoHdCZ4l_8ryGZjqMLQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-basic-pancakes-horiz-1022_0-f13ba897aba6423db7901ca826595244.jpgitokXQMZkp_j', [
